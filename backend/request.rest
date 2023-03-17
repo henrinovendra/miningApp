@@ -1,0 +1,10 @@
+
+###
+GET http://10.10.8.8:8000/token 
+
+###
+GET http://10.10.8.8:8000/api/data
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjYsIm5hbWUiOiJoZW5yaSIsImVtYWlsIjoiaGVucmkxQGdtYWlsLmNvbSIsImlhdCI6MTY3ODA4ODg4OCwiZXhwIjoxNjc4MDg4OTA4fQ.6fc-T_pTVCXkPOREsIo9njFRVmY782YTfh6dzEL0OZ0
+
+###
+GET  http://10.10.8.8:8000/logout
